@@ -1,8 +1,9 @@
-# React + Vite
+**Theme Switcher**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Overview**  
+A simple React app that uses `useState`, `useEffect`, and the `Context API` to manage and toggle between light and dark themes. The theme switch button updates the app's theme, and the card component adapts to the selected theme dynamically.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**  
+- Context API to manage the current theme state across components.  
+- Theme toggle button to switch between light and dark modes.  
+- Card component that updates its appearance based on the active theme.
